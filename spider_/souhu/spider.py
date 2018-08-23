@@ -30,6 +30,7 @@ def craw_souhu(link_list,keyword="中日"):
                              spliter="#$#")
         # 合并两个字典
         content.update(comments)
+        content['link']=link
         # 时间转换
         if len(comments["comTime"])> 1:
             content["comTime"]="#$#".join([ms2date(int(t)) for t in content["comTime"].split("#$#")])
@@ -44,7 +45,7 @@ def craw_souhu(link_list,keyword="中日"):
     print("INSERT#####################################################################################################",end="")
     print(result)
     print("共"+str(len(result))+"篇文章")
-    insert(result,"sohu",keyword=keyword)
+    insert(result,"sohu2",keyword=keyword)
     print("\n\n\n\n\n\n\n")
     time.sleep(3)
 
