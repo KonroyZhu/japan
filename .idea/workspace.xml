@@ -14,17 +14,41 @@
       <file leaf-file-name="spider.py" pinned="false" current-in-tab="false">
         <entry file="file://$PROJECT_DIR$/spider_/souhu/spider.py">
           <provider selected="true" editor-type-id="text-editor">
-            <state relative-caret-position="114">
-              <caret line="6" selection-start-line="6" selection-end-line="6" />
+            <state relative-caret-position="252">
+              <caret line="44" column="17" lean-forward="true" selection-start-line="44" selection-start-column="17" selection-end-line="44" selection-end-column="17" />
+              <folding>
+                <element signature="e#663#678#0" expanded="true" />
+              </folding>
             </state>
           </provider>
         </entry>
       </file>
-      <file leaf-file-name="sql_util.py" pinned="false" current-in-tab="true">
-        <entry file="file://$PROJECT_DIR$/spider_/sql_util.py">
+      <file leaf-file-name="DBHelper.py" pinned="false" current-in-tab="false">
+        <entry file="file://$PROJECT_DIR$/spider_/DBHelper.py">
           <provider selected="true" editor-type-id="text-editor">
-            <state relative-caret-position="361">
-              <caret line="19" column="16" selection-start-line="19" selection-start-column="16" selection-end-line="19" selection-end-column="16" />
+            <state relative-caret-position="-437">
+              <caret line="28" column="98" selection-start-line="28" selection-start-column="98" selection-end-line="28" selection-end-column="98" />
+            </state>
+          </provider>
+        </entry>
+      </file>
+      <file leaf-file-name="common.py" pinned="false" current-in-tab="true">
+        <entry file="file://$PROJECT_DIR$/spider_/common.py">
+          <provider selected="true" editor-type-id="text-editor">
+            <state relative-caret-position="35">
+              <caret line="17" column="49" lean-forward="true" selection-start-line="17" selection-start-column="49" selection-end-line="17" selection-end-column="49" />
+              <folding>
+                <element signature="e#0#15#0" expanded="true" />
+              </folding>
+            </state>
+          </provider>
+        </entry>
+      </file>
+      <file leaf-file-name="check_database.py" pinned="false" current-in-tab="false">
+        <entry file="file://$PROJECT_DIR$/spider_/souhu/check_database.py">
+          <provider selected="true" editor-type-id="text-editor">
+            <state relative-caret-position="76">
+              <caret line="4" lean-forward="true" selection-start-line="4" selection-end-line="4" />
             </state>
           </provider>
         </entry>
@@ -43,6 +67,10 @@
       <find>http://finance.sina.com.cn/stock/stockzmt/2018-08-21/doc-ihhxaafz6522939.shtml</find>
       <find>新华社雅加达8月19日电</find>
       <find>戴秉国在致辞中指出</find>
+      <find>中国继续包揽</find>
+      <find>249270218</find>
+      <find>中日专家探讨新形势下弘扬中日和平友好条约精神</find>
+      <find>ERROR AT</find>
     </findStrings>
   </component>
   <component name="Git.Settings">
@@ -54,16 +82,19 @@
         <option value="$PROJECT_DIR$/spider/sina/spider.py" />
         <option value="$PROJECT_DIR$/spider/common.py" />
         <option value="$PROJECT_DIR$/spider/ifeng/spider.py" />
-        <option value="$PROJECT_DIR$/spider_/common.py" />
         <option value="$PROJECT_DIR$/spider_/ifeng/spider.py" />
         <option value="$PROJECT_DIR$/spider_/sina/spider.py" />
         <option value="$PROJECT_DIR$/spider_/sogou/spider.py" />
-        <option value="$PROJECT_DIR$/spider_/souhu/spider.py" />
         <option value="$PROJECT_DIR$/spider_/sql_util.py" />
+        <option value="$PROJECT_DIR$/spider_/souhu/sample.txt" />
+        <option value="$PROJECT_DIR$/spider_/common.py" />
+        <option value="$PROJECT_DIR$/spider_/souhu/check_database.py" />
+        <option value="$PROJECT_DIR$/spider_/souhu/spider.py" />
+        <option value="$PROJECT_DIR$/spider_/DBHelper.py" />
       </list>
     </option>
   </component>
-  <component name="ProjectFrameBounds" extendedState="7">
+  <component name="ProjectFrameBounds" extendedState="6">
     <option name="x" value="17" />
     <option name="y" value="12" />
     <option name="width" value="1400" />
@@ -115,8 +146,8 @@
       </list>
     </option>
   </component>
-  <component name="RunManager" selected="Python.sql_util">
-    <configuration name="spider (2)" type="PythonConfigurationType" factoryName="Python" temporary="true">
+  <component name="RunManager" selected="Python.common">
+    <configuration name="check_database" type="PythonConfigurationType" factoryName="Python" temporary="true">
       <module name="japan" />
       <option name="INTERPRETER_OPTIONS" value="" />
       <option name="PARENT_ENVS" value="true" />
@@ -124,17 +155,17 @@
         <env name="PYTHONUNBUFFERED" value="1" />
       </envs>
       <option name="SDK_HOME" value="" />
-      <option name="WORKING_DIRECTORY" value="$PROJECT_DIR$/spider_/ifeng" />
+      <option name="WORKING_DIRECTORY" value="$PROJECT_DIR$/spider_/souhu" />
       <option name="IS_MODULE_SDK" value="true" />
       <option name="ADD_CONTENT_ROOTS" value="true" />
       <option name="ADD_SOURCE_ROOTS" value="true" />
-      <option name="SCRIPT_NAME" value="$PROJECT_DIR$/spider_/ifeng/spider.py" />
+      <option name="SCRIPT_NAME" value="$PROJECT_DIR$/spider_/souhu/check_database.py" />
       <option name="PARAMETERS" value="" />
       <option name="SHOW_COMMAND_LINE" value="false" />
       <option name="EMULATE_TERMINAL" value="false" />
       <option name="MODULE_MODE" value="false" />
     </configuration>
-    <configuration name="spider (3)" type="PythonConfigurationType" factoryName="Python" temporary="true">
+    <configuration name="common" type="PythonConfigurationType" factoryName="Python" temporary="true">
       <module name="japan" />
       <option name="INTERPRETER_OPTIONS" value="" />
       <option name="PARENT_ENVS" value="true" />
@@ -142,11 +173,11 @@
         <env name="PYTHONUNBUFFERED" value="1" />
       </envs>
       <option name="SDK_HOME" value="" />
-      <option name="WORKING_DIRECTORY" value="$PROJECT_DIR$/spider_/sina" />
+      <option name="WORKING_DIRECTORY" value="$PROJECT_DIR$/spider_" />
       <option name="IS_MODULE_SDK" value="true" />
       <option name="ADD_CONTENT_ROOTS" value="true" />
       <option name="ADD_SOURCE_ROOTS" value="true" />
-      <option name="SCRIPT_NAME" value="$PROJECT_DIR$/spider_/sina/spider.py" />
+      <option name="SCRIPT_NAME" value="$PROJECT_DIR$/spider_/common.py" />
       <option name="PARAMETERS" value="" />
       <option name="SHOW_COMMAND_LINE" value="false" />
       <option name="EMULATE_TERMINAL" value="false" />
@@ -207,19 +238,19 @@
       <option name="MODULE_MODE" value="false" />
     </configuration>
     <list>
-      <item itemvalue="Python.spider (2)" />
-      <item itemvalue="Python.spider (3)" />
       <item itemvalue="Python.spider (4)" />
       <item itemvalue="Python.spider (5)" />
       <item itemvalue="Python.sql_util" />
+      <item itemvalue="Python.check_database" />
+      <item itemvalue="Python.common" />
     </list>
     <recent_temporary>
       <list>
-        <item itemvalue="Python.sql_util" />
+        <item itemvalue="Python.common" />
         <item itemvalue="Python.spider (5)" />
+        <item itemvalue="Python.check_database" />
+        <item itemvalue="Python.sql_util" />
         <item itemvalue="Python.spider (4)" />
-        <item itemvalue="Python.spider (3)" />
-        <item itemvalue="Python.spider (2)" />
       </list>
     </recent_temporary>
   </component>
@@ -237,15 +268,15 @@
     <servers />
   </component>
   <component name="ToolWindowManager">
-    <frame x="-8" y="-8" width="1936" height="1056" extended-state="7" />
-    <editor active="true" />
+    <frame x="-8" y="-8" width="1936" height="1056" extended-state="6" />
     <layout>
       <window_info content_ui="combo" id="Project" order="0" visible="true" weight="0.25" />
       <window_info anchor="bottom" id="TODO" order="6" />
       <window_info anchor="bottom" id="Event Log" order="7" side_tool="true" />
+      <window_info anchor="bottom" id="Find" order="1" weight="0.32875264" />
       <window_info anchor="bottom" id="Version Control" order="7" />
       <window_info anchor="bottom" id="Python Console" order="7" />
-      <window_info active="true" anchor="bottom" id="Run" order="2" visible="true" weight="0.3742072" />
+      <window_info anchor="bottom" id="Run" order="2" weight="0.8636364" />
       <window_info id="Structure" order="1" side_tool="true" weight="0.25" />
       <window_info anchor="bottom" id="Terminal" order="7" />
       <window_info id="Favorites" order="2" side_tool="true" />
@@ -256,13 +287,29 @@
       <window_info anchor="bottom" id="Message" order="0" />
       <window_info anchor="bottom" id="Inspection" order="5" weight="0.4" />
       <window_info anchor="bottom" id="Cvs" order="4" weight="0.25" />
-      <window_info anchor="bottom" id="Find" order="1" weight="0.32946146" />
     </layout>
   </component>
   <component name="VcsContentAnnotationSettings">
     <option name="myLimit" value="2678400000" />
   </component>
   <component name="editorHistoryManager">
+    <entry file="file://$PROJECT_DIR$/spider_/souhu/spider.py">
+      <provider selected="true" editor-type-id="text-editor">
+        <state relative-caret-position="114">
+          <caret line="6" selection-start-line="6" selection-end-line="6" />
+          <folding>
+            <element signature="e#663#678#0" expanded="true" />
+          </folding>
+        </state>
+      </provider>
+    </entry>
+    <entry file="file://$PROJECT_DIR$/spider_/sql_util.py">
+      <provider selected="true" editor-type-id="text-editor">
+        <state relative-caret-position="323">
+          <caret line="17" column="10" selection-start-line="17" selection-start-column="10" selection-end-line="17" selection-end-column="10" />
+        </state>
+      </provider>
+    </entry>
     <entry file="file://$PROJECT_DIR$/spider_/souhu/spider.py">
       <provider selected="true" editor-type-id="text-editor">
         <state relative-caret-position="76">
@@ -292,13 +339,6 @@
         </state>
       </provider>
     </entry>
-    <entry file="file://$PROJECT_DIR$/spider_/common.py">
-      <provider selected="true" editor-type-id="text-editor">
-        <state relative-caret-position="125">
-          <caret line="18" column="40" selection-start-line="18" selection-start-column="40" selection-end-line="18" selection-end-column="40" />
-        </state>
-      </provider>
-    </entry>
     <entry file="file://$PROJECT_DIR$/spider_/ifeng/spider.py">
       <provider selected="true" editor-type-id="text-editor">
         <state relative-caret-position="15">
@@ -313,17 +353,51 @@
         </state>
       </provider>
     </entry>
-    <entry file="file://$PROJECT_DIR$/spider_/souhu/spider.py">
+    <entry file="file://$PROJECT_DIR$/spider_/sql_util.py">
       <provider selected="true" editor-type-id="text-editor">
-        <state relative-caret-position="114">
-          <caret line="6" selection-start-line="6" selection-end-line="6" />
+        <state relative-caret-position="323">
+          <caret line="17" column="10" selection-start-line="17" selection-start-column="10" selection-end-line="17" selection-end-column="10" />
         </state>
       </provider>
     </entry>
-    <entry file="file://$PROJECT_DIR$/spider_/sql_util.py">
+    <entry file="file://$PROJECT_DIR$/spider_/souhu/sample.txt">
       <provider selected="true" editor-type-id="text-editor">
-        <state relative-caret-position="361">
-          <caret line="19" column="16" selection-start-line="19" selection-start-column="16" selection-end-line="19" selection-end-column="16" />
+        <state relative-caret-position="76">
+          <caret line="4" column="33" selection-start-line="4" selection-start-column="33" selection-end-line="4" selection-end-column="33" />
+        </state>
+      </provider>
+    </entry>
+    <entry file="file://$PROJECT_DIR$/spider_/souhu/check_database.py">
+      <provider selected="true" editor-type-id="text-editor">
+        <state relative-caret-position="76">
+          <caret line="4" lean-forward="true" selection-start-line="4" selection-end-line="4" />
+        </state>
+      </provider>
+    </entry>
+    <entry file="file://$PROJECT_DIR$/spider_/DBHelper.py">
+      <provider selected="true" editor-type-id="text-editor">
+        <state relative-caret-position="-437">
+          <caret line="28" column="98" selection-start-line="28" selection-start-column="98" selection-end-line="28" selection-end-column="98" />
+        </state>
+      </provider>
+    </entry>
+    <entry file="file://$PROJECT_DIR$/spider_/souhu/spider.py">
+      <provider selected="true" editor-type-id="text-editor">
+        <state relative-caret-position="252">
+          <caret line="44" column="17" lean-forward="true" selection-start-line="44" selection-start-column="17" selection-end-line="44" selection-end-column="17" />
+          <folding>
+            <element signature="e#663#678#0" expanded="true" />
+          </folding>
+        </state>
+      </provider>
+    </entry>
+    <entry file="file://$PROJECT_DIR$/spider_/common.py">
+      <provider selected="true" editor-type-id="text-editor">
+        <state relative-caret-position="35">
+          <caret line="17" column="49" lean-forward="true" selection-start-line="17" selection-start-column="49" selection-end-line="17" selection-end-column="49" />
+          <folding>
+            <element signature="e#0#15#0" expanded="true" />
+          </folding>
         </state>
       </provider>
     </entry>
